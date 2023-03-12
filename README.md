@@ -1,2 +1,2 @@
-# TimeSeriesAnalysis
- Time Series Analysis
+# Time Series Analysis
+Time series analysis is a statistical technique used to analyze and understand data that is collected over a period of time. It involves the examination of data that is ordered chronologically, such as stock prices, sales figures, or weather patterns. The goal of time series analysis is to identify patterns, trends, and relationships in the data and use this information to make predictions about future values of the series.
