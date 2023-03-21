@@ -11,9 +11,9 @@ pelt %>%
   autoplot()
 
 # fit ARIMA model and observe residuals
+# Assume you decide to fit the ARIMA(4, 0, 0) model:
 fit_pelt <- pelt %>%
-  model(ARIMA(Hare)) %>%
-  report(fit_pelt)
+  model(ARIMA(Hare ~ pdq(4, 0, 0)))
 
 gg_tsdisplay(pelt, plot_type = "partial")
 
